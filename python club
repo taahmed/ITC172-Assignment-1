@@ -1,0 +1,14 @@
+sudo apt install python3-venv
+ls
+cd Djangoprojects
+python3 -m venv venv
+ls
+source venv/bin/activate
+pip install django
+pwd
+ls
+django-admin startproject pythonclubproj
+ls
+cd pythonclubproj
+ls
+python3 manage.py startapp club
